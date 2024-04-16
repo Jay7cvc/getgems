@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Babylonica&family=Bebas+Neue&family=Dancing+Script:wght@400;700&family=Heebo:wght@200&family=Kanit&family=Lato&family=Montserrat:wght@300&family=Poppins:ital,wght@0,400;0,500;1,700&family=Rajdhani&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,400&family=Sono&family=Ultra&display=swap');
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    background-color: #ececec;
+}
+
+h1, h2, h3, h4, h5, h5, h6 {
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    font-size: 50px;
+    margin-bottom: 58px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+section{
+    padding-top: 113px;
+    padding-bottom: 115px;
+}
+
+.container {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.photo-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    margin: 0;
+}
+
+.main-photo {
+    max-width: 100%;
+    height: auto;
+    width: 300px;
+    border-radius: 15%;
+    box-shadow: 6px 3px 3px 4px #61616115;
+}
+
+.box {
+    background-color: #ffffff;
+    margin-top: -70px;
+    padding-top: 30px;
+    padding-bottom: 35px;
+    padding-right: 30px;
+    padding-left: 30px ;
+    border-radius: 30px;
+}
+
+.block-price {
+    display: flex;
+   
+}
+
+.svg {
+    width: 36px;
+    height: 36px;
+    margin-top: 15px;
+    padding-right: 5px;
+}
+
+.price {
+    color: #b3b3b3;
+    font-family: sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.baks {
+    font-family: "arial";
+    display: flex;
+    padding-top: 24px;
+    padding-left: 17px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    color: #b3b3b3;
+    letter-spacing: 0.8px;
+}
+
+.ton-logo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 13px;   
+}
+
+.for-sale {
+    text-transform: uppercase;
+    color: #0593ff;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-top: 10px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-bottom: 15px;
+    border: 1px solid #0593ff;
+    cursor: pointer;
+}
+
+.komsa {
+    font-family: "arial";
+    display: inline-block;
+    font-size: 19px;
+    color: #b3b3b3;
+    letter-spacing: 0.7px;
+    padding-top: 12px;
+    padding-bottom: 11px;
+}
+
+
+.main {
+    padding-bottom: 80px;
+}
+
+.vau {
+    font-family: arial;
+    font-size: 40px;
+    margin: 0;
+}
+
+.pp {
+    margin-top: 25px;
+    font-size: 30px;
+    font-family: arial;
+}
+
+.offer {
+    text-decoration: none;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    color: #ececec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0593ff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    letter-spacing: 0.7px;
+    font-weight: 530;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+
+.offer:hover {
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.pre {
+    text-decoration: none;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    color: #ececec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dadada;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    letter-spacing: 0.7px;
+    font-weight: 530;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 20px;
+    color: black;
+}
+
+.pre:hover {
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.box2 {
+    background-color: #ffffff;
+    padding-top: 30px;
+    padding-bottom: 35px;
+    padding-right: 30px;
+    padding-left: 30px ;
+    border-radius: 30px;
+    margin-top: 40px;
+}
+
+.own {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 27px;
+}
+
+.avatar {
+    width: 80px;
+    border-radius: 50%;
+    margin-top: 24px;
+}
+
+.contbox {
+    display: flex;
+	align-items: center;
+}
+
+.crypto-adr {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 24px;
+    padding-top: 26px;
+    padding-left: 14px;
+    letter-spacing: 0.6px;
+}
+
+.not-photo {
+    width: 80px;
+    border-radius: 20%;
+    margin-top: 24px;
+}
+
+.collect {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 27px;
+}
+
+.hr {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.name-colect {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 24px;
+    padding-top: 26px;
+    padding-left: 14px;
+    letter-spacing: 0.6px;
+}
+
+.galochka {
+    width: 55px;
+    height: 55px;
+    margin-top: 25px;
+    padding-left: 5px;
+}
+
+.click {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    padding-right: 600px;
+    padding-bottom: 20px;
+}
+
+.click:hover {
+    background-color: #ecececc5;
+    transition: 0.3s;
+}
+
+.footer {
+    padding-bottom: 180px;
+}
+
+.ton {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #c5c5c5;
+    padding-top: 10px;
+}
